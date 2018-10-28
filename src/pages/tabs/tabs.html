@@ -1,0 +1,25 @@
+<!--
+  Generated template for the TabsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!--<ion-header>
+
+  <ion-navbar>
+    <ion-title>tabs</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+</ion-content>
+above default code changed to below(adding tabs with icon)-->
+<ion-tabs [selectedIndex]="myIndex">
+    <ion-tab [root]="cvRoot" tabTitle="CV" tabIcon="home"></ion-tab>
+    <ion-tab [root]="activitiesRoot" tabTitle="activities" tabIcon="images"></ion-tab>
+    <ion-tab [root]="projectRoot" tabTitle="project" tabIcon="laptop"></ion-tab>
+    <ion-tab [root]="contactRoot" tabTitle="Contact" tabIcon="contacts"></ion-tab>
+  </ion-tabs>
